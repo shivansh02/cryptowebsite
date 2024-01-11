@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,26 +27,38 @@ const Navbar = () => {
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-amber-200  mr-4">
             Home
           </a>
-          <a
-            href="#tokenomics"
+          <Link
+            to="tokenomics"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-amber-200  mr-4">
             Tokenomics
-          </a>
-          <a
-            href="#roadmap"
+          </Link>
+          <Link
+            to="roadmap"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-amber-200  mr-4">
             Roadmap
-          </a>
+          </Link>
           <a
-            href="#whiteboard"
+            href="#whitepaper"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-amber-200  mr-4">
-            Whiteboard
+            Whitepaper
           </a>
-          <a
-            href="#how-to-buy"
+          <Link
+            to="howToBuy"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-amber-200 ">
             How to Buy
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

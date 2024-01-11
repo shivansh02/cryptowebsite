@@ -20,15 +20,42 @@ const News = () => {
       imageUrl: "https://placekitten.com/302/200",
       websiteUrl: "https://example.com/news3",
     },
+    {
+      id: 4,
+      title: "Top Story 3",
+      imageUrl: "https://placekitten.com/302/200",
+      websiteUrl: "https://example.com/news3",
+    },
+    {
+      id: 5,
+      title: "Top Story 3",
+      imageUrl: "https://placekitten.com/302/200",
+      websiteUrl: "https://example.com/news3",
+    },
+    {
+      id: 6,
+      title: "Top Story 3",
+      imageUrl: "https://placekitten.com/302/200",
+      websiteUrl: "https://example.com/news3",
+    },
+    {
+      id: 7,
+      title: "Top Story 3",
+      imageUrl: "https://placekitten.com/302/200",
+      websiteUrl: "https://example.com/news3",
+    },
   ];
   return (
     <div className="mb-20">
       <h1 className="text-3xl font-bold text-white text-left mb-4">
         Latest Bitcoin ETF News
       </h1>
-      <div className="flex justify-evenly flex-wrap">
+      <div className="flex overflow-x-auto ">
+        {/* flex justify-evenly flex-wrap */}
         {newsData.map((news) => (
-          <div key={news.id} className="w-80 m-4 p-4 border rounded shadow-md">
+          <div
+            key={news.id}
+            className="w-80 min-w-72 m-4 p-4 border rounded shadow-md">
             <img
               src={news.imageUrl}
               alt={news.title}

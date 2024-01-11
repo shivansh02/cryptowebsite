@@ -2,8 +2,10 @@ import React from "react";
 
 const HowToBuy = () => {
   return (
-    <div className="howtobuy-container my-8 md:my-10">
-      <h1 className="text-3xl md:text-5xl font-semibold text-white">How To Buy</h1>
+    <div className="howtobuy-container my-8 md:my-10" id="howToBuy">
+      <h1 className="text-3xl md:text-5xl font-semibold text-white">
+        How To Buy
+      </h1>
       <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-yellow-500 to-yellow-700 inline-block text-transparent bg-clip-text md:mt-2">
         $BTCETF
       </h1>
@@ -13,7 +15,9 @@ const HowToBuy = () => {
             1
           </div>
           <div className="mt-2 text-center text-white px-4 lg:px-8">
-            <h3 className="text-xl pb-2 md:text-4xl font-bold font-semibold">Create a Wallet</h3>
+            <h3 className="text-xl pb-2 md:text-4xl font-bold font-semibold">
+              Create a Wallet
+            </h3>
             <p className="text-xs md:text-sm lg:text-base">
               Install MetaMask or TrustWallet and follow their simple setup
               instructions.
@@ -26,7 +30,9 @@ const HowToBuy = () => {
             2
           </div>
           <div className="mt-2 text-center text-white px-4 lg:px-8">
-            <h3 className="text-xl pb-2 md:text-4xl font-bold font-semibold">Get Some AVAX</h3>
+            <h3 className="text-xl pb-2 md:text-4xl font-bold font-semibold">
+              Get Some AVAX
+            </h3>
             <p className="text-xs md:text-sm lg:text-base">
               Add AVAX to your new wallet by transferring from an exchange (ex.
               CoinBase, Binance) or purchasing directly.
@@ -39,7 +45,9 @@ const HowToBuy = () => {
             3
           </div>
           <div className="mt-2 text-center text-white px-4 lg:px-8">
-            <h3 className="text-xl pb-2 md:text-4xl font-bold font-semibold">Go To TraderJOE</h3>
+            <h3 className="text-xl pb-2 md:text-4xl font-bold font-semibold">
+              Go To TraderJOE
+            </h3>
             <p className="text-xs md:text-sm lg:text-base">
               Connect MetaMask wallet and swap $AVAX or any other token for
               $BTCETF on PancakeSwap.
@@ -52,7 +60,9 @@ const HowToBuy = () => {
             4
           </div>
           <div className="mt-2 text-center text-white px-4 lg:px-8">
-            <h3 className="text-xl pb-2 md:text-4xl font-bold font-semibold">HODL</h3>
+            <h3 className="text-xl pb-2 md:text-4xl font-bold font-semibold">
+              HODL
+            </h3>
           </div>
         </div>
       </div>

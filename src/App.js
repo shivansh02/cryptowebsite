@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { TbCopy } from "react-icons/tb";
-import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Roadmap from "./components/Roadmap";
@@ -12,6 +11,7 @@ import WhatIsToken from "./components/WhatIsToken";
 import Tokenomics from "./components/Tokenomics";
 import FAQ from "./components/FAQ";
 function App() {
+  // eslint-disable-next-line
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopyToClipboard = () => {
@@ -83,9 +83,9 @@ function App() {
           <TbCopy size={20} className="text-white" />
         </button>
 
+        <Tokenomics />
         <Roadmap />
         <HowToBuy />
-        <Tokenomics />
       </div>
       <div className="mx-4 md:mx-10">
         <News />

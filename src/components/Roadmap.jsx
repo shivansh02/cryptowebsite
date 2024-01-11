@@ -2,8 +2,10 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div className="roadmap-container my-10">
-      <h1 className=" text-4xl fo font-bold text-white mb-2 md:mb-8">Roadmap</h1>
+    <div className="roadmap-container my-10" id="roadmap">
+      <h1 className=" text-4xl fo font-bold text-white mb-2 md:mb-8">
+        Roadmap
+      </h1>
       <div className="flex flex-wrap justify-around">
         <div className="w-full sm:w-1/2 md:w-1/3 p-4">
           <div className="bg-blue-950 rounded-2xl shadow p-6 text-white">
